@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.AppWrap {
+  margin-top: 50px;
+}
+.AppContainer {
+  display: block;
+  margin: 0 auto;
+  background-color: aquamarine;
+  max-width: 960px;
+  padding: 20px;
+}
