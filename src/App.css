@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #3a4042;
 }
 .AppWrap {
   display: block;
@@ -11,11 +12,15 @@
   margin-top: 50px;
   max-width: 960px;
   padding: 20px;
+  border: 1px solid #50717b;
+  border-radius: 10px;
 }
 
 footer {
   text-align: left;
   font-size: 12px;
+  text-align: center;
+  color: #50717b;
 }
 
 h1 {
