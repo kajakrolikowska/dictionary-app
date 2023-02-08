@@ -15,7 +15,6 @@ export default function Meaning(props) {
               <strong>Example: </strong>
               <em>{definition.example}</em>
               <br />
-              <strong>Synonyms</strong>
               <Synonyms synonyms={definition.synonyms} />
             </p>
           </div>
