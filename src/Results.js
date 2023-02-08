@@ -1,5 +1,5 @@
 import React from "react";
-import Meanings from "./Meanings";
+import Meaning from "./Meaning";
 
 import "./Results.css";
 
@@ -10,10 +10,10 @@ export default function Results(props) {
         <h3>{props.results.word}</h3>
         <h5>{props.results.phonetic}</h5>
         <hr />
-        {props.results.meanings.map(function (meanings, index) {
+        {props.results.meanings.map(function (meaning, index) {
           return (
             <div key={index}>
-              <Meanings meanings={meanings} />
+              <Meaning meaning={meaning} />
             </div>
           );
         })}
