@@ -1,6 +1,9 @@
+Body {
+  background-color: #e0ece4;
+}
 .App {
   text-align: center;
-  color: #3a4042;
+  color: #797a7e;
 }
 .AppWrap {
   display: block;
@@ -12,8 +15,9 @@
   margin-top: 50px;
   max-width: 960px;
   padding: 20px;
-  border: 1px solid #50717b;
   border-radius: 10px;
+  background-color: #f7f2e7;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.1);
 }
 
 footer {

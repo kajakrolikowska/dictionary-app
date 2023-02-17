@@ -1,3 +1,28 @@
 .Dictionary {
   padding: 30px;
 }
+
+input {
+  display: block;
+  width: 840px;
+  margin: 0 auto;
+
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #515154;
+  background-color: #fff;
+  border: #ced4da;
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.1);
+
+  border-radius: 10px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+small {
+  display: block;
+  font-size: 10px;
+  text-align: left;
+  padding: 2px 13px;
+}
