@@ -1,5 +1,6 @@
 Body {
   background-color: #e0ece4;
+  font-family: "Nunito", sans-serif;
 }
 .App {
   text-align: center;
@@ -29,8 +30,10 @@ footer {
 
 h1 {
   font-size: 36px;
+  font-family: "Gloock", serif;
 }
 
 h2 {
   font-size: 24px;
+  font-family: "Gloock", serif;
 }

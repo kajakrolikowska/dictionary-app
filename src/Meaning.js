@@ -10,15 +10,14 @@ export default function Meaning(props) {
       <section className="partOfSpeech">
         <h5>{props.meaning.partOfSpeech}</h5>
         {props.meaning.definitions.map(function (definition, index) {
+          if (index > 2) return null;
           return (
-            <div key={index}>
-              <p>
-                {definition.definition}
-                <br />
-                <Example example={definition.example} />
-                <Synonyms synonyms={definition.synonyms} />
-              </p>
-            </div>
+            <p key={index}>
+              {definition.definition}
+              <br />
+              <Example example={definition.example} />
+              <Synonyms synonyms={definition.synonyms} />
+            </p>
           );
         })}{" "}
       </section>
