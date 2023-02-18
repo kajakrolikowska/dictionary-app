@@ -4,9 +4,10 @@
   margin-bottom: 15px;
   border-radius: 10px;
   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 
 .Photos img {
   border-radius: 6px;
-  margin-bottom: 20px;
+  margin: 10px 0;
 }
